@@ -22,5 +22,6 @@ angular.module('projectsApp')
         },
         isArray:false
       }
+      
     });
   });

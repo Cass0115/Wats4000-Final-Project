@@ -16,4 +16,5 @@ angular.module('projectsApp')
         location: $scope.location
       });
     };
+    
   });
