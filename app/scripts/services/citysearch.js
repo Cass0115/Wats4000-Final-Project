@@ -18,10 +18,9 @@ angular.module('projectsApp')
       find: {
         method: 'GET',
         params: {
-          query: 'seattle'
+          cityID: '4717560' //Paris, France ID
         },
         isArray: false
       }
-      
     });
   });

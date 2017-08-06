@@ -2,16 +2,16 @@
 
 /**
  * @ngdoc function
- * @name projectsApp.controller:CurrentCtrl
+ * @name projectsApp.controller:ForecastCtrl
  * @description
- * # CurrentCtrl
+ * # ForecastCtrl
  * Controller of the projectsApp
  */
 angular.module('projectsApp')
-  .controller('CurrentCtrl', function ($scope, $routeParams, current) {
+  .controller('ForecastCtrl', function ($scope, $routeParams, forecast) {
     $scope.cityID = $routeParams.cityID;
 
-    $scope.currentWeather = current.query({
+    $scope.forecastData = forecast.query({
       cityID: $routeParams.cityID
-    });
+    }); 
   });

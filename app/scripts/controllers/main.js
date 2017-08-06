@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the projectsApp
  */
- angular.module('yourApp')
+ angular.module('projectsApp')
    .controller('MainCtrl', function ($scope, citysearch) {
      $scope.citiesFound = citysearch.find();
 
