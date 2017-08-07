@@ -18,7 +18,7 @@ angular.module('projectsApp')
       find: {
         method: 'GET',
         params: {
-          cityID: '4717560' //Paris, France ID
+          query: 'seattle'
         },
         isArray: false
       }
