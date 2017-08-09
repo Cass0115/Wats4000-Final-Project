@@ -8,7 +8,7 @@
  * Factory in the projectsApp.
  */
 angular.module('projectsApp')
-  .factory('forecast', function () {
+  .factory('forecast', function ($resource) {
     // Service logic
     // ...
 
